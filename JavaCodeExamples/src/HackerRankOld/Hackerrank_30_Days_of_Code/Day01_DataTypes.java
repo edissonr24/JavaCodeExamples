@@ -1,4 +1,4 @@
-package Hackerrank_30_Days_of_Code;
+package HackerRankOld.Hackerrank_30_Days_of_Code;
 
 import java.util.Scanner;
 
