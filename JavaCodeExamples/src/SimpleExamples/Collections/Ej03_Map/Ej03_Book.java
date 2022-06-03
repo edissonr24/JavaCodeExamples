@@ -1,4 +1,4 @@
-package T09_Colecciones;
+package SimpleExamples.Collections.Ej03_Map;
 
 public class Ej03_Book {
 

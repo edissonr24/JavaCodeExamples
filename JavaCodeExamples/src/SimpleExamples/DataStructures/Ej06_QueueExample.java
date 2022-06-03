@@ -1,4 +1,4 @@
-package T08_EstructurasDeDatos;
+package SimpleExamples.DataStructures;
 
 import java.util.Iterator;
 import java.util.LinkedList;

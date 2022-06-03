@@ -1,4 +1,4 @@
-package T09_Colecciones;
+package SimpleExamples.Collections.Ej03_Map;
 
 import java.util.Map;
 import java.util.TreeMap;
@@ -25,6 +25,18 @@ public class Ej03_TreeMapExample {
 	        Ej03_Book b=entry.getValue();  
 	        System.out.println(key + " Details:");  
 	        System.out.println(b.id + " " + b.name + " " + b.author + " " + b.publisher + " " + b.quantity);   
-	    }    
+	    }
+	    
+	    //
+	    map.entrySet().forEach(entry -> {
+	    	System.out.println(entry.getKey());
+	    	System.out.println(entry.getValue() + " " + entry.getValue() + " " + entry.getValue().author + " " + entry.getValue().publisher + " " + entry.getValue().quantity);   
+	    });
+	    
+	    for(Integer key : map.keySet()) {
+	    	System.out.println(key + " Details:");  
+	        System.out.println(map.get(key).id +" "+ map.get(key).name+" "+map.get(key).author+" "+ map.get(key).publisher+" "+ map.get(key).quantity);	    	
+	    }
+	    
 	}    
 }

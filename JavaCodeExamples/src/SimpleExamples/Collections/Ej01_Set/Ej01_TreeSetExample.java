@@ -1,4 +1,4 @@
-package T09_Colecciones;
+package SimpleExamples.Collections.Ej01_Set;
 
 import java.util.Iterator;
 import java.util.TreeSet;

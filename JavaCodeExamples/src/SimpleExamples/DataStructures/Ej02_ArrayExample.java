@@ -1,4 +1,4 @@
-package T08_EstructurasDeDatos;
+package SimpleExamples.DataStructures;
 
 import javax.swing.JOptionPane;
 import javax.swing.JTextArea;
@@ -19,9 +19,7 @@ public class Ej02_ArrayExample {
 	      JTextArea areaSalida = new JTextArea();
 	      areaSalida.setText( salida );
 
-	      JOptionPane.showMessageDialog( null, areaSalida,
-	         "Inicialización de un arreglo de valores int",
-	         JOptionPane.INFORMATION_MESSAGE );
+	      JOptionPane.showMessageDialog( null, areaSalida, "Inicialización de un arreglo de valores int", JOptionPane.INFORMATION_MESSAGE );
 
 	      System.exit( 0 );
 

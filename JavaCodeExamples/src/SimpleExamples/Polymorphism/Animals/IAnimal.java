@@ -1,3 +1,4 @@
+package SimpleExamples.Polymorphism.Animals;
 
 public interface IAnimal {
 

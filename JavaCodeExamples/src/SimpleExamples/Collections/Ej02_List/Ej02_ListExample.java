@@ -1,6 +1,7 @@
-package T09_Colecciones;
+package SimpleExamples.Collections.Ej02_List;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 
@@ -25,7 +26,8 @@ public class Ej02_ListExample {
 		  String element = (String) iterator.next();
 		  System.out.println("Iterador: " + element);
 		}
-
+		
+		Collections.sort(listA);
 
 		//access via new for-loop
 		for(Object object : listA) {

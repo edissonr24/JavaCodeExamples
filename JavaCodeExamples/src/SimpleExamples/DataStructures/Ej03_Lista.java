@@ -1,4 +1,4 @@
-package T08_EstructurasDeDatos;
+package SimpleExamples.DataStructures;
 
 /**
  * Clase que define las operaciones básicas que debe tener una lista simple.

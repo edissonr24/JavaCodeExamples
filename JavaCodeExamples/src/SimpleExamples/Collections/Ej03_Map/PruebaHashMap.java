@@ -1,3 +1,5 @@
+package SimpleExamples.Collections.Ej03_Map;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -34,6 +36,16 @@ public class PruebaHashMap {
 		mapa.put(4, "David");
 		mapa.put(1, "Pepe");
 		
+		// 
+		for (Integer key: mapa.keySet()) {
+			System.out.println(key + " = " + mapa.get(key));
+		}
+		System.out.println("-------------------------");
+		
+		//entryKey
+		mapa.entrySet().forEach(entry -> System.out.println(entry.getKey() + " = " + entry.getValue()));
+		System.out.println("-------------------------");
+		
 		String[] nombres = mapa.values().toArray(new String[0]);
 		
 		for (String nombre: nombres)
@@ -41,6 +53,7 @@ public class PruebaHashMap {
 		
 		Integer[] claves = mapa.keySet().toArray(new Integer[0]);
 		 
+		// For
 		for (Integer clave: claves)
 		  System.out.println(clave);
 	}

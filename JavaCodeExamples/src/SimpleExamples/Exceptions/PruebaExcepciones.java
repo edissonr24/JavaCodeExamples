@@ -1,3 +1,5 @@
+package SimpleExamples.Exceptions;
+
 
 public class PruebaExcepciones {
 

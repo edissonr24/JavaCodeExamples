@@ -1,4 +1,4 @@
-package T08_EstructurasDeDatos;
+package SimpleExamples.DataStructures;
 
 /**
  * Clase que define los elementos que debe tener un Nodo de la lista.

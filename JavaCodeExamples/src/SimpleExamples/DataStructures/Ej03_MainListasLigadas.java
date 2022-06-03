@@ -1,4 +1,4 @@
-package T08_EstructurasDeDatos;
+package SimpleExamples.DataStructures;
 
 public class Ej03_MainListasLigadas {
     /**

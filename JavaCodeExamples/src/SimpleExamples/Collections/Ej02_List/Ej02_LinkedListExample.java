@@ -1,4 +1,4 @@
-package T09_Colecciones;
+package SimpleExamples.Collections.Ej02_List;
 
 import java.util.*;
 

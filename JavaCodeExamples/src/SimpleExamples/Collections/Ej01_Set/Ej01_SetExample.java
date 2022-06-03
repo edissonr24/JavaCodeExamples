@@ -1,4 +1,4 @@
-package T09_Colecciones;
+package SimpleExamples.Collections.Ej01_Set;
 
 import java.util.HashSet;
 import java.util.Iterator;
@@ -13,8 +13,9 @@ public class Ej01_SetExample {
 		setA.add("element 3");
 		setA.add("element 4");
 		setA.add("element 1");
+		setA.add("element 1");
 		
-		//access via Iterator
+		//access via Iterator		
 		Iterator<String> iterator = setA.iterator();
 		while(iterator.hasNext()){
 		  String element = (String) iterator.next();
@@ -23,9 +24,9 @@ public class Ej01_SetExample {
 
 
 		//access via new for-loop
-		for(Object object : setA) {
-		    String element = (String) object;
-		    System.out.println("Elemento con for: " + element);
+		for(String object : setA) {
+		    //String element = (String) object;
+		    System.out.println("Elemento con for: " + object);
 		}
 	}
 

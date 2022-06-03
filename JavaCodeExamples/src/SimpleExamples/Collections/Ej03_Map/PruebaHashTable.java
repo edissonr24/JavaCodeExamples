@@ -1,3 +1,4 @@
+package SimpleExamples.Collections.Ej03_Map;
 import java.util.Enumeration;
 import java.util.Hashtable;
 
@@ -5,7 +6,7 @@ public class PruebaHashTable {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Soy una gueva");
+		System.out.println("Start");
 
 		Hashtable<String, String> contenedor = new Hashtable<String, String>();
 		
